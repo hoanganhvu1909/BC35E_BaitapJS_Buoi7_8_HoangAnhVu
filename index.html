@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BÀI TẬP JS BUỔI 7 - 8</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Bài tập JS</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <input id="soNguyen" type="number" class="form-control" placeholder="nhập số nguyên" />
+                        </div>
+                        <button id="themSo" class="btn btn-success">
+                            Thêm số
+                        </button>
+                    </div>
+                    <div id="mang" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- Câu 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Câu 1: Tổng các số dương</div>
+                    <div class="card-body">
+
+                        <button id="tongSoduong" class="btn btn-success">
+                            Kết quả
+                        </button>
+                    </div>
+                    <div id="kq1" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <!-- Câu 2  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Câu 2: Đếm các số dương trong mảng</div>
+                    <div class="card-body">
+
+                        <button id="slSoduong" class="btn btn-success">
+                            Kết quả
+                        </button>
+                    </div>
+                    <div id="kq2" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>  
+<br>
+<!-- Câu 3  -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 3: Tìm số nhỏ nhất trong mảng</div>
+                <div class="card-body">
+
+                    <button id="min" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="soMin" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+<br>
+
+<!-- Câu 4 -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 4: Tìm số dương nhỏ nhất trong mảng</div>
+                <div class="card-body">
+
+                    <button id="btnsoDuongmin" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="soDuongmin" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+<br>
+
+<!-- Câu 5: -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 5: Tìm số chẵn cuối</div>
+                <div class="card-body">
+
+                    <button id="btnsoChan" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showSochan" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<br>
+<!-- Câu 6 -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 6: Đổi chỗ hai vị trí</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <input id="viTri1" type="number" class="form-control" placeholder="nhập vị trí" />
+                        <input id="viTri2" type="number" class="form-control" placeholder="nhập vị trí" />
+                    </div>
+                    <button id="btnDoicho" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showDoicho" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<!-- Câu 7 -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 7: Sắp xếp mảng theo thứ tự tăng dần</div>
+                <div class="card-body">
+
+                    <button id="btnSapxep" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showSapxep" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<br>
+<!-- Câu 8 -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 8: Tìm số nguyên tố đầu tiên trong mảng</div>
+                <div class="card-body">
+
+                    <button id="btnSoNguyenTo" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showSoNguyenTo" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<br>
+<!-- Câu 9 -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 9: Tìm số nguyên</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <input id="num9" type="number" class="form-control" placeholder="nhập số nguyên" />
+                    </div>
+                    
+                    <button id="btnthemSo" class="btn btn-success">
+                        Thêm số
+                    </button>
+                    
+                    <button id="btnCau9" class="btn btn-success">
+                        Kết quả
+                    </button>
+                    
+                </div>
+                
+                <div id="showCau9" class="card-footer text-muted"></div>
+                <div id="showKQcau9" class="card-footer text-muted"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<!-- Câu 10  -->
+<!-- Câu 8 -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Câu 10: Số dương</div>
+                <div class="card-body">
+
+                    <button id="btnSosanh" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showSosanh" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
